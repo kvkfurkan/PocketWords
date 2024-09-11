@@ -14,8 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         app:menu="@menu/bottom_nav_menu"
-        app:labelVisibilityMode="labeled"
-        android:visibility="gone"/>
+        app:labelVisibilityMode="labeled"/>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_fragment"
@@ -23,7 +22,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:navGraph="@navigation/nav_graph" />
-
-
-
 </FrameLayout>
